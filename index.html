@@ -38,13 +38,18 @@
     }
   }
 
-  .card {
-    background-color: #ffdaaa;
+  .card-column {
+    display: inline-block
   }
+
+  .card-title {
+    font-size: 35px;
+  }
+
   </style>
 
   <script>
-    new WOW().init();
+  new WOW().init();
   </script>
 
 </head>
@@ -132,7 +137,7 @@
 </div>
 </section> -->
 
-<section id="information">
+<section id="information" class="text-center">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -179,10 +184,10 @@
   /--------------------------------------------------------------- -->
 
   <div class="container collapse" id="collapseStory">
-    <div class="card-deck font-weight-bold" style="padding: 70px; color: #7c0422;">
+    <div class="card-deck" style="padding: 70px; color: #7c0422;">
       <div class="card animated slideInLeft">
         <div class="card-block">
-          <h4 class="card-title">Swag title</h4>
+          <h4 class="card-title font-weight-bold">Swag title</h4>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
         <div class="card-footer">
@@ -191,7 +196,7 @@
       </div>
       <div class="card animated slideInUp">
         <div class="card-block">
-          <h4 class="card-title">Card title</h4>
+          <h4 class="card-title font-weight-bold">Card title</h4>
           <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
         </div>
         <div class="card-footer">
@@ -200,7 +205,7 @@
       </div>
       <div class="card animated slideInRight">
         <div class="card-block">
-          <h4 class="card-title">Card title</h4>
+          <h4 class="card-title font-weight-bold">Card title</h4>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
         </div>
         <div class="card-footer">
@@ -215,123 +220,144 @@
   /--------------------------------------------------------------- -->
 
   <div class="container collapse" id="collapseWedding">
-    <div class="card-deck rounded font-weight-bold" style="padding: 70px; color: #7c0422;">
+    <div class="card-deck rounded" style="padding: 70px; color: #7c0422;">
       <div class="card animated slideInLeft">
         <div class="card-block ">
-          <h4 class="card-title">Ceremony</h4>
+          <h4 class="card-title font-weight-bold">Ceremony</h4>
           <p class="card-text">Our wedding ceremony will take place from 6:00pm - 7:00pm at Hope Wesleyan Church in Independence Iowa.
             <p class="card-text">Due to the size of the church the ceremony will be for very close family.</p>
             <p class="card-text">Those attending the ceremony will receive an invitation specifically calling
-            for their attendance. </p>
-          </div>
-        </div>
-        <div class="card animated slideInUp">
-          <div class="card-block">
-            <h4 class="card-title font-weight-bold">Reception</h4>
-            <p class="card-text">Our reception will officially begin at 8:00pm at the Heartland Acres Event Center
-              in Independence Iowa.
-              <p class="card-text">However, guests are invited to arrive anytime between 7:00pm and 8:00pm as there will be a
-              Cocktail hour taking place at that time where drinks and snacks will be available.</p>
-              <p class="card-text">Festivities will begin at 8:00pm and continue on until the New Year arrives!</p>
-            </p>
-          </div>
-        </div>
-        <div class="card animated slideInRight">
-          <div class="card-block">
-            <h4 class="card-title font-weight-bold">Mooore Reception Details</h4>
-            <p class="card-text">A full-fledged meal will not be served at the reception so we advise eating something before attending.</p>
-            <p class="card-text">Finger food of all kinds will be served in various intervals for guests to take as they please throughout the night so nobody will be going hungry.</p>
-            <p class="card-text">We will have various activities to keep everyone busy throughout the relatively long reception such as Dancing, Bags, a Bar/Coffee Bar and more!
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /---------------------------------------------------------------
-      /                   Travels Collapsible
-      /--------------------------------------------------------------- -->
-      <div class="container collapse" id="collapseTravels">
-        <div class="card-group font-weight-bold" style="padding: 70px; color: #7c0422;">
-          <div class="card animated slideInLeft">
-            <div class="card-block">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              for their attendance. </p>
             </div>
           </div>
           <div class="card animated slideInUp">
             <div class="card-block">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <h4 class="card-title font-weight-bold">Reception</h4>
+              <p class="card-text">Our reception will officially begin at 8:00pm at the Heartland Acres Event Center
+                in Independence Iowa.
+                <p class="card-text">However, guests are invited to arrive anytime between 7:00pm and 8:00pm as there will be a
+                  Cocktail hour taking place at that time where drinks and snacks will be available.</p>
+                  <p class="card-text">Festivities will begin at 8:00pm and continue on until the New Year arrives!</p>
+                </p>
+              </div>
             </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
+            <div class="card animated slideInRight">
+              <div class="card-block">
+                <h4 class="card-title font-weight-bold">Reception Cont.</h4>
+                <p class="card-text">A full-fledged meal will not be served at the reception so we advise eating something before attending.</p>
+                <p class="card-text">Finger food of all kinds will be served in various intervals for guests to take as they please throughout the night so nobody will be going hungry.</p>
+                <p class="card-text">We will have various activities to keep everyone busy throughout the relatively long reception such as Dancing, Bags, a Bar/Coffee Bar and more!
+                </div>
+              </div>
             </div>
           </div>
-          <div class="card animated slideInRight">
-            <div class="card-block">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <!-- /---------------------------------------------------------------
+          /                   Travels Collapsible
+          /--------------------------------------------------------------- -->
+          <div class="container collapse" id="collapseTravels">
+            <div class="card-deck rounded" style="padding: 70px; color: #7c0422;">
+              <div class="card animated slideInLeft">
+                <div class="card-block">
+                  <h4 class="card-title font-weight-bold">Church Location</h4>
+                  <p class="card-text">Our wedding ceremony will take place at Hope Wesleyan Church.</p>
+                  <p class="card-text font-weight-bold">505 4th Ave NE, Independence, IA 50644</p>
+                  <a class="font-weight-light btn btn-lg btn-primary align-self-center" href="https://www.google.com/maps/place/Hope+Wesleyan+Church/">Church Directions</a>
+                  <br>
+                </div>
+              </div>
+              <div class="card animated slideInRight">
+                <div class="card-block">
+                  <h4 class="card-title font-weight-bold">Lodging Information</h4>
+                  <p class="card-text">We have rooms blocked off at two hotels near the reception venue.</p>
+                  <p class="card-text">Contact information for each hotel will be displayed below.</p>
+                </div>
+              </div>
+              <div class="card animated slideInUp">
+                <div class="card-block">
+                  <h4 class="card-title font-weight-bold">Reception Location</h4>
+                  <p class="card-text">Our reception will take place at Heartland Acres Agribition Center. </p>
+                  <p class="card-text font-weight-bold">505 4th Ave NE, Independence, IA 50644</p>
+                  <a class="font-weight-light btn btn-lg btn-primary align-self-center" href="https://www.google.com/maps/place/Heartland+Acres+Agribition+Center/">Reception Directions</a>
+                </div>
+              </div>
             </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
+            <div class="card-deck rounded" style="color: #7c0422;">
+              <div class="card animated slideInUp">
+                <div class="card-block">
+                  <h4 class="card-title font-weight-bold">Lodging Locations</h4>
+                  <p class="card-text">Both locations have rooms booked under the name "Schulz/Lovell Wedding" for the 30th and 31st of December.</p>
+                  <hr>
+                  <div class="row">
+                    <div class="col">
+                      <p class="card-text">Best Western Plus</p>
+                      <p class="card-text font-weight-bold">2100 Swan Lake Blvd, Independence, IA 50644</p>
+                      <a class="font-weight-light btn btn-lg btn-primary align-self-center" href="https://www.bestwestern.com/en_US/book/hotels-in-independence/best-western-plus-independence-inn-suites/propertyCode.16105.html">Hotel Website</a>
+                    </div>
+                      <div class="col">
+                        <p class="card-text">Super 8</p>
+                        <p class="card-text font-weight-bold">2000 1st St W, Independence, IA 50644</p>
+                        <a class="font-weight-light btn btn-lg btn-primary align-self-center" href="https://www.wyndhamhotels.com/super-8/independence-iowa/super-8-independence-ia/overview">Hotel Website</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <!-- /---------------------------------------------------------------
-      /                   Registry Collapsible
-      /--------------------------------------------------------------- -->
-      <div class="container collapse rounded" id="collapseRegistry" style="padding: 70px; color: #7c0422;">
-        <div class="card text-center animated slideInUp font-weight-bold">
-          <div class="card-block" style="padding: 50px">
-            <h4 class="card-title font-weight-bold">We have a couple options!</h4>
-            <p class="card-text">Below we have links to a traditional registry, and a fund to help us with paying for our Honeymoon!</p>
-            <hr>
-            <p class="card-text">Registry</p>
-            <a href="https://www.target.com/gift-registry/giftgiver?registryId=09794214ec94424eb23b02019da0d2c0" class="btn btn-primary">Take me there!</a>
-            <hr>
-            <p class="card-text">Honeymoon Fund</p>
-            <a href="#" class="btn btn-primary">Take me there!</a>
-          </div>
-        </div>
-      </div>
-    </section>
+              <!-- /---------------------------------------------------------------
+              /                   Registry Collapsible
+              /--------------------------------------------------------------- -->
+              <div class="container collapse rounded" id="collapseRegistry" style="padding: 70px; color: #7c0422;">
+                <div class="card text-center animated slideInUp ">
+                  <div class="card-block" style="padding: 50px">
+                    <h4 class="card-title font-weight-bold">We have a couple options!</h4>
+                    <p class="card-text">Below we have links to a traditional registry, and a fund to help us with paying for our Honeymoon!</p>
+                    <hr>
+                    <div class="row">
+                      <div class="col">
+                        <a href="https://www.target.com/gift-registry/giftgiver?registryId=09794214ec94424eb23b02019da0d2c0" class="btn btn-lg btn-primary">Registry</a>
+                      </div>
+                      <div class="col">
+                        <a href="#" class="btn btn-lg btn-primary">Honeymoon Fund</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
 
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 offset-lg-2 text-center">
-            <h2 class="section-heading">Let's Get In Touch!</h2>
-            <hr class="primary">
-            <p>If you have any more questions about something related to the wedding (we definitely missed some details), or just want to say hello! Feel free to contact us.</p>
-          </div>
-          <div class="col-lg-4 offset-lg-2 text-center">
-            <i class="fa fa-phone fa-3x sr-contact" style="color:#7c0422"></i>
-            <p>712-309-6164</p>
-          </div>
-          <div class="col-lg-4 text-center">
-            <i class="fa fa-envelope-o fa-3x sr-contact" style="color:#7c0422"></i>
-            <p><a href="mailto:lovellt@uni.edu">lovellt@uni.edu</a></p>
-          </div>
-        </div>
-      </div>
-    </section>
+            <section id="contact">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 offset-lg-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>If you have any more questions about something related to the wedding (we definitely missed some details), or just want to say hello! Feel free to contact us.</p>
+                  </div>
+                  <div class="col-lg-4 offset-lg-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact" style="color:#7c0422"></i>
+                    <p>712-309-6164</p>
+                  </div>
+                  <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact" style="color:#7c0422"></i>
+                    <p><a href="mailto:lovellt@uni.edu">lovellt@uni.edu</a></p>
+                  </div>
+                </div>
+              </div>
+            </section>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/tether/tether.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+            <!-- Bootstrap core JavaScript -->
+            <script src="vendor/jquery/jquery.min.js"></script>
+            <script src="vendor/tether/tether.min.js"></script>
+            <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+            <!-- Plugin JavaScript -->
+            <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+            <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+            <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
+            <!-- Custom scripts for this template -->
+            <script src="js/creative.min.js"></script>
 
-  </body>
+          </body>
 
-  </html>
+          </html>
